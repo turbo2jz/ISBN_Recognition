@@ -38,7 +38,3 @@ def plt_row_pixel_nums(title, row_pixel_nums):
     plt.barh(range(1, len(tmp) + 1), tmp)
     # plt.show()
     plt.savefig('resource/tmp/' + title + '.png')
-
-
-def foo(cnt, k):
-    return cnt * k + 2

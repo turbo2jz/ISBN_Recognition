@@ -23,7 +23,6 @@ chars_sum = 0
 # 正确字符总数
 right_num_sum = 0
 
-k = 1.03
 for img_file_path in img_file_path_list:
     # 读入图像
     img = cv.imread(img_file_path)
@@ -148,7 +147,6 @@ for img_file_path in img_file_path_list:
                 num_cnt[t_n] -= 1
         print("False")
     img_cnt += 1
-right_cnt = foo(right_cnt, k)
 
 # 正确率及准确率
 print("img_num:%4d right_img_num:%4d rate:%.5f" % (img_cnt, right_cnt, right_cnt / img_cnt))
