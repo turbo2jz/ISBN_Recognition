@@ -3,7 +3,6 @@ import cv2 as cv
 import numpy as np
 from isbn_recognition import resize, load_all_kinds_templates, get_rotating_theta, match_templates, get_isbn, \
     get_row_ranges1, get_row_change_num
-from utils import foo
 
 train_set_path = "../another/trainset/"
 test_set_path = "../another/21exam/"
